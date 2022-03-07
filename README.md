@@ -2,7 +2,9 @@
 
 This is created to demonstrate workspace with manual approval and sharing between the teams with RBAC to workspaces.
 
-Org:Daffodil > Workspace:terraform-workspace-rbac
+*Org:* Daffodil
+*Workspace:*terraform-workspace-rbac
+*GitRepo:* https://github.com/jiantony/terraform-workspace-rbac
 
 Git Branches
 
