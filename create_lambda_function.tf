@@ -2,12 +2,15 @@ resource "local_file" "goodmorning_python_file" {
     content = <<EOF
 import json
 import os
+import datetime
 
 def lambda_handler(event, context):
+    today = str(datetime.date.today())
     return {
         'statusCode': 200,
-        'body': json.dumps('Good morning Jibin from %s with path #112233' % os.environ['env'])
+        'body': json.dumps('%s : Good morning Jibin from %s with path #112233' % (today, os.environ['env']))
     }
+
 EOF
     filename = "goodmorning.py"
 }
