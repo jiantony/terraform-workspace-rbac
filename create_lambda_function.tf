@@ -25,7 +25,7 @@ data "archive_file" "goodmorning_python" {
 resource "aws_lambda_function" "goodmorning_lambda" {
   filename      = "goodmorning.py.zip"
   function_name = "goodmorning_lambda"
-  role          = aws_iam_role.lamda_execution_role.arn
+  role          = aws_iam_role.lambda_execution_role.arn
   handler       = "goodmorning.lambda_handler"
   depends_on = [
       data.archive_file.goodmorning_python

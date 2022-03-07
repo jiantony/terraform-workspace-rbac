@@ -17,7 +17,7 @@ feature003         |                     x--------------------------------------
                    |
 feature004         x-----------------------------------------------------------------------------------------------
 ```
-- feature001 : Update the lamda function to print date and time with goodmorning
+- feature001 : Update the lambda function to print date and time with goodmorning
 
 - feature002 : Add SNS Topic
 
