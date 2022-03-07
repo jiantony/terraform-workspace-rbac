@@ -6,7 +6,7 @@ This is created to demonstrate workspace with manual approval and sharing betwee
 *Workspace:*terraform-workspace-rbac
 *GitRepo:* https://github.com/jiantony/terraform-workspace-rbac
 
-Git Branches
+## Git Branches
 
 ```bash
           master---x---------------------x--------------------x----------------------x---------------x--------------
