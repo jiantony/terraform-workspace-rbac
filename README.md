@@ -17,3 +17,16 @@ feature003         |                     x--------------------------------------
                    |
 feature004         x-----------------------------------------------------------------------------------------------
 ```
+- feature001 : Update the lamda function to print date and time with goodmorning
+
+- feature002 : Add SNS Topic
+
+- feature003 : Add Lambda trigger to SNS Topics
+
+- feature004 : Update Readme file
+
+## Author
+Jibin Antony : jibinantony@gmail.com
+
+## License
+Apache License 2.0
