@@ -4,7 +4,7 @@ This is created to demonstrate workspace with manual approval and sharing betwee
 
 Org:Daffodil > Workspace:terraform-workspace-rbac
 
-Git Braches
+Git Branches
 
 ```bash
           master---x---------------------x--------------------x----------------------x---------------x--------------
